@@ -1,23 +1,23 @@
-# Ambientes Virtuais (Nunca versionar o motor do Python)
+# Ambientes Virtuais
 venv/
 .venv/
 env/
 
-# Segurança (Nunca versionar senhas e chaves de API)
+# Segurança
 .env
 
-# Bancos de Dados Locais (O banco deve ser gerado pelo código, não baixado)
+# Bancos de Dados Locais
 *.db
 *.sqlite
 *.sqlite3
 
-# Dados Brutos e Processados (Não versionamos volumetria, apenas o código que a gera)
+# Dados Brutos e Processados
 data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Arquivos de Cache e Sistema (Sujeira que o Python e o Jupyter criam sozinhos)
+# Arquivos de Cache e Sistema
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
